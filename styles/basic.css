@@ -20,6 +20,32 @@ a:hover {
     text-decoration: underline;
 }
 
+.buttons_container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    background-color: #6C91BF;
+    padding: 1rem;
+}
+
+.icon_button {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    background-color: #eaf86c;
+    color: rgb(89, 211, 64);
+    text-decoration: none;
+    padding: 0.75rem 1rem;
+    border-radius: 0.5rem;
+    transition: background-color 0.3s, color 0.3s;
+    font-size: 1rem;
+}
+
+.icon_button:hover {
+    background-color: #3cd4da;
+    color: rgb(89, 211, 64);
+}
+
 footer {
     text-align: center;
     padding: 2rem 0;
@@ -33,7 +59,7 @@ footer {
     header h1 {
         font-size: 2.25rem;
     }
-    
+
     header p {
         font-size: 1rem;
     }
