@@ -1,3 +1,16 @@
+:root {
+    --soft-red: #FBD2D2;
+    --soft-cream: #F7EDD6;
+    --mint-green: #E0ECC5;
+    --pale-green: #BEE9C1;
+    --aqamarine: #A1E2CE;
+    --flavescent: #FFE194;
+    --turquoise: #A3CFA7;
+    --gray: #333333;
+    --white: #FFFFFF;
+    --black: #000000;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -7,24 +20,24 @@
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
-    background: #f4f4f4;
-    color: #333;
+    background: var(--soft-cream);
+    color: var(--gray);
 }
 
 a {
-    color: #0066cc;
+    color: var(--aqamarine);
     text-decoration: none;
 }
 
 a:hover {
-    text-decoration: underline;
+    color: var(--turquoise);
 }
 
 .buttons_container {
     display: flex;
     flex-wrap: wrap;
     gap: 1rem;
-    background-color: #6C91BF;
+    background-color: var(--mint-green);
     padding: 1rem;
 }
 
@@ -32,8 +45,8 @@ a:hover {
     display: inline-flex;
     align-items: center;
     gap: 0.5rem;
-    background-color: #eaf86c;
-    color: rgb(89, 211, 64);
+    background-color: var(--flavescent);
+    color: var(--gray);
     text-decoration: none;
     padding: 0.75rem 1rem;
     border-radius: 0.5rem;
@@ -42,14 +55,14 @@ a:hover {
 }
 
 .icon_button:hover {
-    background-color: #3cd4da;
-    color: rgb(89, 211, 64);
+    background-color: var(--turquoise);
+    color: var(--gray);
 }
 
 footer {
     text-align: center;
     padding: 2rem 0;
-    background: #fff;
+    background: var(--white);
     margin-top: 2rem;
     font-size: 0.9rem;
     color: #666;

@@ -1,6 +1,19 @@
+:root {
+    --soft-red: #FBD2D2;
+    --soft-cream: #F7EDD6;
+    --mint-green: #E0ECC5;
+    --pale-green: #BEE9C1;
+    --aqamarine: #A1E2CE;
+    --flavescent: #FFE194;
+    --turquoise: #A3CFA7;
+    --gray: #333333;
+    --white: #FFFFFF;
+    --black: #000000;
+}
+
 nav {
-    background: #fff;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    background: var(--pale-green);
+    box-shadow: 0 2px 4px var(--aqamarine);
 }
 
 nav ul {
@@ -31,7 +44,7 @@ nav a {
 }
 
 .card {
-    background: #fff;
+    background: var(--white);
     border-radius: 8px;
     overflow: hidden;
     box-shadow: 0 2px 8px rgba(0,0,0,0.1);
@@ -61,8 +74,8 @@ nav a {
 }
 
 .more_btn {
-    background: #0066cc;
-    color: #fff;
+    background: var(--aqamarine);
+    color: var(--white);
     border: none;
     padding: .5rem 1rem;
     border-radius: 4px;
@@ -71,5 +84,6 @@ nav a {
 }
 
 .more_btn:hover {
+    background: var(--turquoise);
     opacity: 0.9;
 }
