@@ -1,0 +1,8 @@
+@import './basic.css';
+@import './grid.css';
+
+.back_link {
+    display: inline-block;
+    margin: 1rem;
+    color: var(--gray);
+}
