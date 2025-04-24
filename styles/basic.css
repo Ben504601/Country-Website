@@ -68,6 +68,7 @@ a:hover {
 
 .icon_button:hover {
     background-color: var(--turquoise);
+    color: var(--gray);
 }
 
 footer {

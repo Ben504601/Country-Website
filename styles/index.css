@@ -1,0 +1,40 @@
+@import './basic.css';
+
+.intro {
+    background: var(--mint-green);
+    padding: 2rem 1rem;
+    border-radius: 8px;
+    margin: 2rem;
+}
+
+.intro h2 {
+    color: var(--gray);
+    font-size: 2rem;
+    margin-bottom: .5rem;
+}
+
+.intro p {
+    color: var(--gray);
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin: 1rem 0;
+}
+
+nav a {
+    margin: 0 1rem;
+    padding: .5rem 1rem;
+    background: var(--flavescent);
+    border-radius: 4px;
+    color: var(--gray);
+}
+
+nav a:hover {
+    background: var(--turquoise);
+    color: var(--white);
+}
